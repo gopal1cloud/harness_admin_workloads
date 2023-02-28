@@ -1,5 +1,4 @@
-namespace: ${infra.namespace}
-
+namespace: prometheus
 #loadBalancerIP: ""
 
 # nodeSelector: k3s-1-master
