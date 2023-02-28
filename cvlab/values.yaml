@@ -1,7 +1,7 @@
 name: cv-demo
-namespace: ${infra.kubernetes.namespace}
+namespace: cv-canary-demo
 
-image: ${artifact.metadata.image}
+image: <+artifact.image>
 
 env:
   config:
